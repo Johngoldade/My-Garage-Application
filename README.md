@@ -88,7 +88,7 @@ To watch a video demo on how to use the application, click [here]().
  
 ## License
 
-Licensed under the [MIT](https://github.com/github/choosealicense.com/blob/gh-pages/_licenses/mit.txt) license.
+Licensed under the [MIT](https://github.com/Johngoldade/My_Garage_Application/blob/main/LICENSE) license.
 
 ## Contributing
 
