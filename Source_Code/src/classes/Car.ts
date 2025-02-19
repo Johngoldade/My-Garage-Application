@@ -45,6 +45,18 @@ class Car extends Vehicle {
       this.wheels = wheels;
     }
   }
+  // Method for drifting car
+  drift(vehicle: Car): void {
+    const make = vehicle.make
+    const model = vehicle.model
+    // Car must be running in order to drift
+    if (vehicle.started) {
+      console.log (`This ${make} ${model} is drifting a corner!`)
+    } else {
+      console.log(`This ${make} ${model} needs to be started first!`)
+    }
+
+  }
 
   // Override the printDetails method from the Vehicle class
   override printDetails(): void {
