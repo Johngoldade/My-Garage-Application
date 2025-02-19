@@ -32,7 +32,7 @@ You should now be ready to run the application. To do this, type ```npm start```
 
 ![Selecting whether to create a vehicle or select a vehicle](./Images/Vehicle_Prompt.png)
 
-A default Toyota Camry will exist in the "Select an Existing Vehicle" choice.
+A default Toyota Camry, Ford F-150, and Harley Davidson Sportster will exist in the "Select an Existing Vehicle" choice.
 
 ![Default vehicle choice](./Images/Default_Vehicle.png)
 
@@ -44,13 +44,21 @@ For this example, I will add a truck. To do this, I will select "Truck" and then
 
 ![Adding features to my truck](./Images/Truck_Info.png)
 
-Some things to note, a truck will ask for a towing capacity but a car or motorbike will not. A motorbike will ask for wheel sizes and tire brands but a car or truck will not. 
+Something to note, a truck will ask for a towing capacity but a car or motorbike will not. 
 
 Now that I have created my truck, I can do things with it. Following the prompt, I can print the vehicle details...
 
 ![Adding features to my truck](./Images/Truck_Details.png)
 
-... or perform actions on it such as start it, accelerate 5 mph at a time, decelerate 5 mph at a time, stop the vehicle, turn it left or right, or reverse it. Additionally, options exist to tow a vehicle, which only works if the vehicle selected is a truck, or to perform a wheelie, which only works if the vehicle selected is a motorbike. 
+... or perform actions on it such as start it, accelerate 5 mph at a time, decelerate 5 mph at a time, stop the vehicle, turn it left or right, or reverse it. Additionally, options exist to drift a vehicle, which only works if the vehicle selected is a car, to tow a vehicle, which only works if the vehicle selected is a truck, or to perform a wheelie, which only works if the vehicle selected is a motorbike. 
+
+If the vehicle you select is a car and the action you select is to drift, but your car is not started, a message will display saying that your car needs to be started.
+
+![Car cannot drift because it has not been started message](./Images/Needs_Started_to_Drift.png)
+
+Once your car is started, if you select drift again, it will display a message saying that your car is drifting.
+
+![Car is drifting message](./Images/Drifting.png)
 
 If the vehicle you select is a truck and the action you select is tow, you will be asked to select a vehicle to tow. 
 
