@@ -88,7 +88,7 @@ Lastly, you will have the choice to "Select or create another vehicle" or "Exit"
 
 This touches on the basic functionality of the application user process. Feel free to experiment with the different choices and observe the reactions!
 
-To watch a video demo on how to use the application, click [here]().
+To watch a video demo on how to use the application, click [here](https://drive.google.com/file/d/11rKoh1EpeDqkXcbIVYUdzx2r9dxlbusc/view?usp=drive_link).
 
 ## Credits
 
